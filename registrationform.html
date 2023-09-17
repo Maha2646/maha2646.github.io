@@ -1,90 +1,62 @@
-
+<html>
 <head>
-<!-- 	<meta http-equiv="refresh" content ="0">  -->
+<title>Student Information</title>
 </head>
-<body>
-<center>
-<table height=500 width=600 border='1px solid black'>
-	<tr >
-		<th colspan="2">Student Registration Form</th>
-	</tr>
-	<tr>
-		<th>Enter your name</th>
-		<td><input type="text"></td>
-	</tr>
-	<tr>
-		<th>Password</th>
-		<td><input type="text"></td>
-	</tr>
-	<tr>
-		<th>Gender</th>
-		<td>
-			<input type="radio" id="male" name="gender" value="male">
-			<label for="male">Male</lable>
+<body><p>
+<h1 align="center">Student Information</h1>
+<form align ="center">
+<table border="1"cellspacing="0" align="center">
 
-			<input type="radio" id="female" name="gender" value="female">
-			<label for="female">Female</lable>
-
-			<input type="radio" id="othergender" name="gender" value="other">
-			<label for="othergender">Other</lable>
-		</td>
-		
-	</tr>
-	<tr>
-		<th>Language known</th>
-		<td>
-			<input type="checkbox" id="english">
-			<label for="english">English</lable>
-
-			<input type="checkbox" id="spanish">
-			<label for="spanish">Spanish</lable>
-
-			<input type="checkbox" id="french">
-			<label for="french">French</lable>
-		</td>	
-	</tr>
-	<tr>
-		<th>Choose your country</th>
-		<td>
-			<select>
-				<option>India</option>
-				<option>USA</option>
-				<option>Japan</option>
-				<option>China</option>
-			</select>		
-		</td>
-	</tr>
-	<tr>
-		<th>Give your feedback</th>
-		<td>
-			<textarea>
-			</textarea>	
-		</td>
-	</tr>
-	<tr>
-		<th>Date of Birth</th>
-		<td>
-			<input type="date">
-		</td>
-	</tr>
-	<tr>
-		<th>Choose your color</th>
-		<td>
-			<input type="color">	
-		</td>
-	</tr>
-	<tr>
-		<th>Choose your file</th>
-		<td>
-			<input type="file">	
-		</td>
-	</tr>
-
-</table>
-
-<div style="padding-top:20px;">
-	<input type="submit" value="Submit">
-	<input type="reset"> 
-</div>
-</center>
+<tr>
+<td>first name:</td>
+<td><input type="text" name="first_name"></td>
+<br></tr>
+<tr>
+<td>Last name:</td> <td><input type="text" name="last_name"></td>
+<br></tr>
+<tr>
+<td>
+E-Mail:</td>
+<td><input type="text" name="email"></td>
+<br></tr>
+<tr>
+<td>Gender:</td> <td><input type="radio" id="gender1" name="gender" value="Female" />
+      <label for="gender">Female</label>
+<input type="radio" id="gender2" name="gender" value="Male" />
+      <label for="gender">Male</label><br></td>
+</tr>
+<tr>
+<td>PH No:</td> <td><input type="text" name="ph_no"></td></tr><br>
+<tr>
+<td>Languages Known:</td> <td><input type="checkbox" id="lan1" name="vehicle1" value="Bike">
+  <label for="lan1"> TELUGU</label>
+<input type="checkbox" id="languages" name="lan2" value="Bike">
+  <label for="lan2"> ENGLISH</label>
+<input type="checkbox" id="vehicle1" name="lang3" value="Bike">
+  <label for="lan3"> HINDI</label><br></td></tr>
+<tr>
+<td>Choose country:</td> <td><select name="dropdown">
+<option value=" India" selected>India</option>
+<option value=" USA" >USA</option>
+<option value=" UK">UK</option>
+<option value=" Australia">Austrlia</option>
+</select><br></td></tr>
+<tr>
+<td><label>Feedback:</label></td>
+<td><textarea rows="5" cols="50" name="description">
+</textarea>
+<br></td></tr>
+<tr><td>
+  Enter DOB:</td>
+  <td><input type="date" id="dob" ><br></td></tr>
+<tr><td>
+choose file:</td>
+<td><input type="file" id="myfile" name="myfile"><br></td></tr>
+<tr>
+<td colspan="2" align="center"><input type="submit">
+<input type="Reset"></td></tr>
+</form>
+</p>
 </body>
+</html>
+
