@@ -1,0 +1,76 @@
+<!creating timetable>
+<html>
+<head>
+<title> table</title>
+</head>
+<body>
+<div align="center">
+<img src="C:\Users\vignan\Downloads\logo.jpg" width="450"height="300"/><br></div>
+<table border="1"cellpadding="20"cellspacing="0" align="center">
+<tr>
+<td colspan="10" align="center"><h3> TimeTable 3rd CSE SEC-H</h3></b></td></tr>
+
+
+<th bgcolor="silver">day</th>
+<th bgcolor="silver">1</th>
+<th bgcolor="silver">2</th>
+<th bgcolor="silver">break</th>
+<th bgcolor="silver">3</th>
+<th bgcolor="silver">4</th>
+<th bgcolor="silver">5</th>
+<th bgcolor="silver">lunch</th>
+<th bgcolor="silver">6</th>
+<th bgcolor="silver">7</th>
+</tr>
+<tr>
+<td bgcolor="gold">mon</td>
+<td colspan="2" bgcolor="orange">DE</td>
+<td rowspan="6" bgcolor="lightblue">break</td>
+<td colspan="2" bgcolor="pink">wt lab</td>
+<td bgcolor="lightgreen">discussion</td>
+<td rowspan="6" bgcolor="lightblue">lunch</td>
+<td colspan="2"bgcolor="orange">CD</td>
+</tr>
+<tr>
+<td bgcolor="gold">tue</td>
+<td bgcolor="orange">CD</td>
+<td bgcolor="orange">AI</td>
+<td colspan="2" bgcolor="orange">wt</td>
+<td bgcolor="lightgreen">discussion</td>
+<td bgcolor="yellow">coun</td>
+<td bgcolor="grey">minors/honors</td>
+</tr>
+<tr>
+<td bgcolor="gold">wed</td>
+<td colspan="2" bgcolor="orange">SS</td>
+<td colspan="2" bgcolor="orange">DE</td>
+<td bgcolor="lightgreen">discussion</td>
+<td colspan="2" bgcolor="lavender">OE</td>
+</tr>
+<tr>
+<td bgcolor="gold">thu</td>
+<td colspan="2" bgcolor="pink">DE lab</td>
+<td colspan="2" bgcolor="orange">AI</td>
+<td bgcolor="lightgreen">discussion</td>
+<td bgcolor="orange">CD</td>
+<td bgcolor="yellow">Library</td>
+</tr>
+<tr>
+<td bgcolor="gold">fri</td>
+<td bgcolor="orange">WT</td>
+<td bgcolor="orange">CD</td>
+<td colspan="2" bgcolor="violet">IDP</td>
+<td bgcolor="lightgreen">discussion</td>
+<td colspan="2" bgcolor="pink">minors/honors lab</td>
+</tr>
+<td bgcolor="gold">sat</td>
+<td bgcolor="orange">AI</td>
+<td bgcolor="orange">WT</td>
+<td colspan="2" bgcolor="grey">minors/honors</td>
+<td bgcolor="lightgreen">discussion</td>
+<td colspan="2" bgcolor="lavender">OE</td>
+</tr>
+
+</table>
+</body>
+</html>
